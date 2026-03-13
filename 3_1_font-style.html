@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font style</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-family: serif, monospace;
+        font-size: 20px;
+      }
+      .title {
+        font-size: 28px;
+        color: #4d35b685;
+      }
+      .content {
+        font-size: 18px;
+      }
+      .font-italic {
+        font-style: italic;
+      }
+      .font-weight-bold {
+        font-weight: bold;
+      }
+      .font-weight-300 {
+        font-weight: 300;
+      }
+      .font-variant {
+        font-variant: small-caps;
+      }
+      .subtitle {
+        font-size: 20px;
+      }
+      .subtitle-rem {
+        font-size: 2rem;
+      }
+      .subtitle-em {
+        font-size: 2em;
+      }
+      .article {
+        font-size: 10px;
+      }
+      .rectangle.width {
+        width: 20vw;
+        height: 50px;
+        background-color: lightblue;
+      }
+      .rectangle.height{
+        height: 20vh;
+        width:100vw;
+        background-color: lightcoral;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="title">Font Style</h2>
+    <p class="content">This is a paragraph with some text.</p>
+    <p class="content font-italic">This is a paragraph with some text.</p>
+    <p class="content font-weight-bold">This is a paragraph with some text.</p>
+    <p class="content font-weight-300">This is a paragraph with some text.</p>
+    <p class="content font-variant">This is a paragraph with some text.</p>
+    <hr />
+    <h2>px</h2>
+    <p class="subtitle">This is a paragraph with some text.</p>
+    <h2>px</h2>
+    <p class="subtitle-rem">This is a paragraph with some text.</p>
+    <h2>px</h2>
+    <div class="article">
+      <p class="subtitle-em">This is a paragraph with some text.</p>
+    </div>
+    <hr />
+    <h2>vw</h2>
+    <div class="rectangle width"></div>
+    <h2>vh</h2>
+    <div class="rectangle height"></div>
+  </body>
+</html>
